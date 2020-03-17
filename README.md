@@ -4,7 +4,7 @@ These are Python scripts (*.py) and GNUPlot Scripts (*.gp).
 lorentz1d.py and tgm1d.py are solvers to solves one dimensional electromagnetic wave reflection with Lorentz Dispersive Media.
 lorentz1d is coded with ADE method, a convensional method and tgm1d is coded with Transient Green Method.
 ## Usage
-> `% python tgm1d.py 20`
+> % python tgm1d.py 20
 
 to solve numerically for 20GHz pole Lorentz media. After a while this generate a file, "tgm1d.data".
 And then,
