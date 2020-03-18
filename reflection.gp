@@ -188,5 +188,5 @@ eps0 = 1.39812694947167e-23
 x = 0.0
 GPFUN_De = "De(x)=x*1e-9"
 ## Last datafile plotted: "tgm1d.data.fft"
-plot refl(1e9*x) t 'Analitical','lorentz1d.data.fft' us (De($1)):4 w p pt 1 t 'ADEF', 'tgm1d.data.fft' us (De($1)):4 w po pt 4 t 'TGM'
+plot refl(1e9*x) t 'Analitical','lorentz1d.data.fft' us (De($1)):4 w p pt 1 t 'ADEM', 'tgm1d.data.fft' us (De($1)):4 w po pt 4 t 'TGM'
 #    EOF
