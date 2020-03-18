@@ -31,11 +31,10 @@ omg=2.0*pi*freq
 eps1=1.0
 sig=0.0
 Np=1
-ff=np.array([float(sys.argv[1]),float(sys.argv[2]), float(sys.argv[3])])
-omega=np.multiply(ff,2*pi*1e9)
+
+omega=[2*pi*1e9*float(sys.argv[1])]
 delta=np.multiply(omega,0.1)
 eps8=1.5
-Np=ff.size
 epss=np.array(Np*[3.0])
 
 t0=1.0e-11
