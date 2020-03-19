@@ -2,7 +2,7 @@
 The package is codes of Finite Difference Time Domain Method for solving Dispersive Media with TGM and ADE Method.
 These are Python scripts (*.py) and GNUPlot Scripts (*.gp).
 lorentz1d.py and tgm1d.py are solvers to solves one dimensional electromagnetic wave reflection with Lorentz Dispersive Media.
-lorentz1d is coded with ADE method, a convensional method and tgm1d is coded with Transient Green Method.
+lorentz1d is coded with ADE method, a convensional method and tgm1d is coded with Transient Green Method (The paper is at arXiv:2003.08081).
 ## Usage
 > % python tgm1d.py 20
 
